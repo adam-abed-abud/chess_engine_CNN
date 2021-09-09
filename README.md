@@ -45,6 +45,8 @@ jupyter-notebook pytorch_CNN_chess_engine.ipynb
 
 Enjoy!
 
+![Alt Text](https://github.com/adam-abed-abud/chess_engine_CNN/blob/master/movie.gif)
+
 ------------
 
 
@@ -58,17 +60,17 @@ Enjoy!
 ------------
 Project Organization
 
-    ├── README.md          <- README file for developers using this project.
+    ├── README.md                           <- README file for developers using this project.
     |
-    ├── games.csv           <- Input file containing the training data
+    ├── games.csv                           <- Input file containing the training data
     │
-    ├── generate_dataset.py      <- Convert input data into chess language
+    ├── generate_dataset.py                 <- Convert input data into chess language
     │
-    ├── process_dataset.py           <- Process the input data and make train and label datasets for the model
+    ├── process_dataset.py                  <- Process the input data and make train and label datasets for the model
     │
-    ├── board_conversion.py           <- Set of utilities for converting chess language into chess board
+    ├── board_conversion.py                 <- Set of utilities for converting chess language into chess board
     │
-    └── pytorch_CNN_chess_engine.ipynb             <- Main file responsible for the training, testing and visualization of the chess engine.
+    └── pytorch_CNN_chess_engine.ipynb      <- Main file responsible for the training, testing and visualization of the chess engine.
 
 
 --------
